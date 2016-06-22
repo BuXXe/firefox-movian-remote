@@ -1,0 +1,24 @@
+{
+  "title": "Firefox Movian Remote",
+  "name": "movianremotecontrol",
+  "version": "0.0.1",
+  "description": "This add-on is supposed to help starting media files on PS3 movian from your browser.",
+  "main": "index.js",
+  "author": "BuXXe",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "preferences": 
+  [{
+    "name": "PS3-IP",
+    "title": "PS3-IP Address",
+    "description": "This should be the local IP address of your PS3. (with Port 42000 for Movian)",
+    "type": "string",
+    "value": "192.168.2.27"
+}]
+}
